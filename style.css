@@ -32,6 +32,11 @@ header {
 	margin: 20px 0 0 0;
 }
 
+.nav-bar .logo img {
+	width: 74px;
+	height: 24px;
+}
+
 .nav-bar a {
 	color: #5f6368;
 }
@@ -44,11 +49,6 @@ header {
 
 .nav-bar-top li {
 	margin: 0 10px 0 0;
-}
-
-.nav-bar-top img {
-	width: 74px;
-	height: 24px;
 }
 
 .nav-bar-top a {
@@ -76,11 +76,39 @@ header {
 	color: #3367d6;
 }
 
+.nav-bar-mobile {
+	display: none;
+	font-size: 20px;
+}
+
+.nav-bar-mobile ul {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.nav-bar-mobile li {
+	margin: 0 15px 0 0;
+}
+
+.nav-bar-mobile .hamburger img {
+	width: 24px;
+}
+
 /* main */
 
 /* footer */
 
 /* media queries */
+@media screen and (max-width: 992px) {
+	.nav-bar-top,
+	.nav-bar-bottom {
+		display: none;
+	}
+	.nav-bar-mobile {
+		display: block;
+	}
+}
 
 /* toggles */
 .display-none {
