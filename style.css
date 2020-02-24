@@ -30,6 +30,11 @@ a {
 /* header */
 header {
 	margin: 20px 0 0 0;
+	border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+.nav-bar li {
+	padding: 0 0 6px 0;
 }
 
 .nav-bar .logo img {
@@ -70,6 +75,10 @@ header {
 
 .nav-bar-bottom-left li {
 	margin: 0 30px 0 0;
+}
+
+.nav-bar-bottom-left .faq {
+	border-bottom: 3px solid #3367d6;
 }
 
 .nav-bar-bottom-left .faq a {
