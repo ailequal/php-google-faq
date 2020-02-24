@@ -105,6 +105,23 @@ header {
 }
 
 /* main */
+.question_answer .wrapper .question {
+	margin: 64px 0 0 0;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	color: #3c4043;
+}
+
+.question_answer .wrapper .answer {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+.question_answer .wrapper .answer p {
+	margin: 20px 0 10px 0;
+}
 
 /* footer */
 
